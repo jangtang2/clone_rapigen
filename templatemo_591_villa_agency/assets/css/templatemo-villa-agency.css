@@ -499,16 +499,18 @@ Header Style
 }
 
 .header-area .main-nav .nav li:hover a {
-  color: #f35525;
+  color: #C8102E;
 }
 
 .header-area .main-nav .nav li a.active {
-  color: #f35525;
+  color: #C8102E;
+	 border-bottom-color: #C8102E;
+	border-bottom-style: solid;
 }
 
 
 .background-header .main-nav .nav li a.active {
-  color: #f35525;
+  color: #C8102E;
 }
 
 .header-area .main-nav .menu-trigger {
@@ -639,6 +641,7 @@ Header Style
   .background-header .main-nav .nav,
   .header-area .main-nav .nav {
     background-color: #fff;
+	  
   }
   .background-header .main-nav .nav li a,
   .header-area .main-nav .nav li a {
@@ -758,11 +761,12 @@ Banner Style
 }
 
 .main-banner .item-3 {
-  background-image: url("../../../../(주)래피젠_files/philosophy_img02.jpg");
+  background-image: url("../../rapigen_img/philosophy_img03.jpg");
+text-align: center;
 }
 .main-banner .PRO {
 	height: 500px;
-  background-image: url("../../rapigen_img/philosophy_img04.jpg");
+  background-image: url("../images/banner-03.jpg");
 	background-repeat: no-repeat;
 	  background-size: cover;
 	text-align: center;
@@ -772,11 +776,38 @@ Banner Style
 	color: white;
 }
 
+.main-banner .news {
+	height: 500px;
+  
+	background-image: url("../../rapigen_img/philosophy_img04.jpg");
+	background-repeat: no-repeat;
+	  background-size: cover;
+	text-align: center;
+	padding: 100px;
+}
+
+.main-banner .CC {
+	height: 500px;
+  
+	background-image: url("../images/banner-02.jpg");
+	background-repeat: no-repeat;
+	  background-size: cover;
+	text-align: center;
+	padding: 100px;
+}
 
 .main-banner .item span.category {
   color: #fff;
   font-size: 16px;
   font-weight: 600;
+  text-transform: capitalize;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.main-banner .item .second {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
   text-transform: capitalize;
   display: inline-block;
   margin-bottom: 30px;
@@ -1229,7 +1260,6 @@ Properties Style
   text-align: center;
 }
 
-
 /* 
 ---------------------------------------------
 Contact Style
@@ -1358,7 +1388,6 @@ footer.footer-no-gap {
 }
 
 footer {
-  margin-top: 150px;
   background-color: #1e1e1e;
   min-height: 100px;
 }
